@@ -1,0 +1,36 @@
+#InputField{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 40px;
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 7px;
+}
+#InputField h3{
+    font-size: 32px;
+    margin: 0;
+}
+#InputField select{
+    margin-left: 5px;
+}
+#InputField textarea{
+    padding: 7px;
+    border-radius: 4px;
+}
+
+#AssignedPerson{
+    margin-left: 5px;
+}
+button{
+    background-color: transparent;
+    border-radius: 7px;
+    padding: 5px 10px;
+    width: fit-content;
+    border: 1px solid royalblue;
+}
+button:active{
+    background-color: royalblue;
+    color: white;
+}

@@ -1,0 +1,44 @@
+#SideBar {
+  width: fit-content;
+  height: 100%;
+}
+#SideBarTasks {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#SideBarTasks span {
+  text-align: center;
+  width: 192px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  padding: 5px;
+  color: royalblue;
+  border: 2px solid royalblue;
+  border-radius: 7px;
+}
+#SideBarTasks span:active {
+  background-color: royalblue;
+  border: 2px solid white;
+}
+a:active {
+  color: white;
+}
+a {
+  color: royalblue;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+@media (max-width: 1124px) {
+  #SideBar {
+    margin: auto;
+    display: flex;
+  }
+  #SideBarTasks {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+}

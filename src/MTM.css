@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  transition: 300ms;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root {
+  width: 98%;
+  margin: auto;
+}
+#Main {
+  width: 100%;
+  margin: auto;
+}
+#section {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  gap: 50px;
+}
+#TaskSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  word-break: break-all;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid royalblue;
+  border-radius: 7px;
+  padding: 20px;
+  height: fit-content;
+}
+#viewTasks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+#taskId {
+  margin-left: 5px;
+}
+#viewPage {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+#viewPage input {
+  width: fit-content;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+#DeleteBox input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+#DeleteTask {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+#DeleteTask h3 {
+  margin: 0;
+  font-size: 28px;
+}
+#DeleteBox {
+  display: flex;
+  gap: 20px;
+  height: fit-content;
+}
+@media (max-width: 1124px) {
+  #section {
+    flex-direction: column;
+    gap: 40px;
+  }
+  #viewTasks {
+    justify-content: center;
+    gap: 30px;
+  }
+}
